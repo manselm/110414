@@ -1913,11 +1913,17 @@ table tr td.offer .cell_data div div {
 	padding:6px 7px;	
 }
 
-#offer_pagination {
+#offer_pagination, #no_offers {
+	xborder: #ddd solid 1px; 
+	xbackground: #eee; 
 	padding: 10px;
 	text-align:center;	
 	font-weight:bold;
 }
+ 
+ #offer_pagination a:hover {
+	xcolor:#2a6496; 
+ }
  
 #offer_pagination a, #no_offers a {
 	text-decoration:underline;   
