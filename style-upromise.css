@@ -1668,8 +1668,13 @@ top:10%;
 	font-weight:bold;	
 }
 
-#paid_placement_two a {
-	xwidth:180px;	
+#paid_placement_two div.col-md-6 a {
+	xwidth:180px;
+	margin-bottom:25px	
+}
+
+#paid_placement_two div.col-md-6 a {
+	margin-bottom:10px;	
 }
 
 #paid_placement_two div div div div  {
