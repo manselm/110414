@@ -2200,11 +2200,14 @@ ul.retailers_list li a, ul.retailers_list li span {
 /* Interstitial Lightbox */
 
 .modal-dialog {
-	box-shadow:0 5px 10000px rgba(0,0,0,.6) !important;
+	box-shadow:0px 5px 10000px rgba(0,0,0,.6) !important;
+	-webkit-box-shadow:none !important;
+	z-index:999999;
 }
 
 .modal-content {
-	box-shadow:0 5px 10000px rgba(0,0,0,.5);	
+	box-shadow:none !important;	
+	background-clip:initial;
 }
 
 .modal-content .UP_logo_icon {
