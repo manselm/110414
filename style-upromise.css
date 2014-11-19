@@ -1825,6 +1825,14 @@ top:10%;
 	
 }
 
+#offer_table tr th {
+	white-space:normal;
+}
+
+#offer_table tr th.offer {
+	white-space:nowrap;	
+}
+
 #offer_table tr .keyword_results {
 	text-align:left;	
 }
