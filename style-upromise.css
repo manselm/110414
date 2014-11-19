@@ -171,10 +171,6 @@ sup.danger {
 	z-index:99999;	
 }
 
-.modal-backdrop.in, .modal-backdrop.fade {
-	background:none;	
-}
-
 /*
  * jquery.selectBoxIt.css 3.8.1
  * Author: @gregfranko
