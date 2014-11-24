@@ -1651,8 +1651,8 @@ top:10%;
 }
 
 .article .paid .col-md-4, .benefits .paid .col-md-4 {
-	margin-bottom:25px;
-	height:135px;	
+	xmargin-bottom:25px;
+	height:175px;	
 }
 
 .article #paid_placement_two .col-md-4 {
