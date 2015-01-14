@@ -1661,8 +1661,32 @@ top:10%;
 }
 
 
-#paid_placement_one a {
-	xwidth:120px;	
+#paid_placement_one a, #search_ad div a, #paid_placement_two div.col-md-6 a, #paid_placement_three .col-sm-3 a {
+	display:block;
+	margin-bottom:30px;	
+}
+
+.paid .amzn_footnote {
+	font-size:0.7em;	
+}
+
+#search_ad {
+	xwidth:180px;
+}	
+
+#search_ad div a {
+	color:#000;
+	text-align:center;	
+}
+
+#search_ad div img {
+	display:block;
+	margin-bottom:10px;	
+}
+
+#search_ad div, #search_ad div div {
+	text-align:center;
+	width:185px !important;
 }
 
 #paid_placement_one .panel-body div > div {
@@ -1671,12 +1695,6 @@ top:10%;
 
 .paid a span.ad_amount {
 	font-weight:bold;	
-}
-
-#paid_placement_two div.col-md-6 a {
-	xwidth:180px;
-	margin-bottom:15px;	
-	height:
 }
 
 #paid_placement_two div.col-md-6 a img {
@@ -1886,9 +1904,19 @@ table tr td.offer .cell_data div div {
 	font-weight:normal;
 }
 
-#offer_table .see_details_text, 
-#merchant_table .see_details_text {
-	font-weight:normal;	
+#offer_table td.offer a span.see_details_text, 
+#merchant_table td.offer a span.see_details_text {
+	font-weight:normal;
+}
+
+#offer_table td.offer a span.see_details_text, 
+#merchant_table td.offer a span.see_details_text,
+#offer_table td.offer a span.glyphicon {
+	color:#008dc9;		
+}
+
+#offer_table td.offer a span {
+	color:#000;	
 }
 
 #offer_table tr td span.price, 
@@ -2184,15 +2212,6 @@ ul.retailers_list li a, ul.retailers_list li span {
 
 #search_terms li button, #search_terms li p {
 	display:inline-block;	
-}
-
-#search_ad div, #search_ad div div {
-	text-align:center;
-	width:180px !important;
-}
-
-#search_ad iframe {
-	width:	
 }
 
 .default_sort { display: none; }
